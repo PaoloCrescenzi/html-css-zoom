@@ -1,0 +1,80 @@
+:root{
+    --bk-color: rgb(0, 0, 0)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    height: 100vh;
+    background-color: var(--bk-color);
+}
+
+.top-nav{
+    text-align: right;
+    padding: .5rem;
+}
+
+.top-nav button{
+    background-color: rgb(74, 74, 74);
+    border-radius: 5px;
+    padding: .3rem;
+    color: white;
+}
+
+.bottom-nav{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-container{
+    display:flex;
+    align-items: center;
+}
+
+.center-container{
+    display: flex;
+}
+
+.left-container>div,
+.center-container>div{
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.end{
+    background-color: rgb(74, 74, 74);
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.end-container>div{
+    color: red;
+    padding: 0 1rem;
+}
+
+.bottom-nav section{
+    padding: 1rem 0;
+}
+
+.end{
+    display: flex;
+    align-items:center;
+}
+
+
+
+
+
